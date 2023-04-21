@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductList from "./Components/UserInterface/UserComponents/ProductList";
 import CartPage from "./Components/UserInterface/UserComponents/CartPage";
 import DeliverDetails from "./Components/UserInterface/UserComponents/DeliverDetails";
-import Home1 from "./AComponents/Pages/Home";
+
 function App() {
   const [session, setSession] = React.useState(false);
   const [cart, setCart] = React.useState(0);
@@ -24,7 +24,6 @@ function App() {
           <Route element={<Dashboard />} path="/dashboard/*" />
           <Route element={<AdminLogin />} path="/adminlogin" />
           <Route element={<Home />} path="/" />
-          <Route element={<Home1 />} path="/home" />
           <Route element={<ProductList/>} path="/productlist/:id/:icon" />
           <Route element={<FilterCompomnent/>} path="/filter" />
           <Route element={<SetProductDetails/>} path="/setproduct" />

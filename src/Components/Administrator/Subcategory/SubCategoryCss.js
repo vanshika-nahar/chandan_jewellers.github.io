@@ -5,34 +5,28 @@ import { color } from '@mui/system';
   
      maincontainer:{
        width:'100wh',
-       height:'100vh',
-       background:'#f5f6fa',
        justifyContent:'center',
-       display:'flex',
-   
+       display:'flex'
     },
 
     box:{ borderRadius:30,
-        width:'50%',
+        width:'40%',
         height:'50%',
+        marginTop:'3%',
         background:'white ',
         padding:'30px',
-        marginTop:'5%'
 
     },
-    heading:{
-        fontSize:20,
-        fontWeight:'bolder',
-     
-       
+    headingContainer:{
+        display:'flex',
+        flexDirection:"row",
+        justifyContent:"space-between",
     },
-    images:{
-         height:30,
-         width:40,
-         borderRadius:5 ,
-         marginLeft:100,
-        
-        },
-   
- 
+
+    heading:{
+        fontSize:32,
+        fontVariant:"small-caps",
+        fontWeight:'bolder',
+        fontWeight:"bold"
+    },
 });
